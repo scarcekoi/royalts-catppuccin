@@ -6,109 +6,108 @@ whiskers:
   filename: "themes/terminal-{{flavor.identifier}}.rtcp"
   hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
 ---
-
 {
   "userInterface": false,
   "terminal": true,
   "colors": [
     {
       "name": "Foreground",
-      "color": "#{{ text.hex }}",
+      "color": "{{ text.hex }}",
       "terminalMapping": "foreground"
     },
     {
       "name": "Background",
-      "color": "#{{ base.hex }}",
+      "color": "{{ base.hex }}",
       "terminalMapping": "background"
     },
     {
       "name": "Cursor Background",
-      "color": "#{{ teal.hex }}",
+      "color": "{{ teal.hex }}",
       "terminalMapping": "cursorBackground"
     },
     {
       "name": "Cursor Foreground",
-      "color": "#{{ base.hex }}",
+      "color": "{{ base.hex }}",
       "terminalMapping": "cursorForeground"
     },
     {
       "name": "Black",
-      "color": "#{{ base.hex }}",
+      "color": "{{ base.hex }}",
       "terminalMapping": "ansiBlack"
     },
     {
       "name": "Red",
-      "color": "#{{ red.hex }}",
+      "color": "{{ red.hex }}",
       "terminalMapping": "ansiRed"
     },
     {
       "name": "Green",
-      "color": "#{{ green.hex }}",
+      "color": "{{ green.hex }}",
       "terminalMapping": "ansiGreen"
     },
     {
       "name": "Yellow",
-      "color": "#{{ yellow.hex }}",
+      "color": "{{ yellow.hex }}",
       "terminalMapping": "ansiYellow"
     },
     {
       "name": "Blue",
-      "color": "#{{ blue.hex }}",
+      "color": "{{ blue.hex }}",
       "terminalMapping": "ansiBlue"
     },
     {
       "name": "Magenta",
-      "color": "#{{ mauve.hex }}",
+      "color": "{{ mauve.hex }}",
       "terminalMapping": "ansiMagenta"
     },
     {
       "name": "Cyan",
-      "color": "#{{ sky.hex }}",
+      "color": "{{ sky.hex }}",
       "terminalMapping": "ansiCyan"
     },
     {
       "name": "White",
-      "color": "#{{ text.hex }}",
+      "color": "{{ text.hex }}",
       "terminalMapping": "ansiWhite"
     },
     {
       "name": "Bright Black",
-      "color": "#{{ base.hex }}",
+      "color": "{{ base.hex }}",
       "terminalMapping": "ansiBrightBlack"
     },
     {
       "name": "Bright Red",
-      "color": "#{{ maroon.hex }}",
+      "color": "{{ maroon.hex }}",
       "terminalMapping": "ansiBrightRed"
     },
     {
       "name": "Bright Green",
-      "color": "#{{ teal.hex }}",
+      "color": "{{ teal.hex }}",
       "terminalMapping": "ansiBrightGreen"
     },
     {
       "name": "Bright Yellow",
-      "color": "#{{ peach.hex }}",
+      "color": "{{ peach.hex }}",
       "terminalMapping": "ansiBrightYellow"
     },
     {
       "name": "Bright Blue",
-      "color": "#{{ lavender.hex }}",
+      "color": "{{ lavender.hex }}",
       "terminalMapping": "ansiBrightBlue"
     },
     {
       "name": "Bright Magenta",
-      "color": "#{{ pink.hex }}",
+      "color": "{{ pink.hex }}",
       "terminalMapping": "ansiBrightMagenta"
     },
     {
       "name": "Bright Cyan",
-      "color": "#{{ sapphire.hex }}",
+      "color": "{{ sapphire.hex }}",
       "terminalMapping": "ansiBrightCyan"
     },
     {
       "name": "Bright White",
-      "color": "#{{ text.hex }}",
+      "color": "{{ text.hex }}",
       "terminalMapping": "ansiBrightWhite"
     }
   ],
